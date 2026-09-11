@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+
+  <title>Meet the Team Section | devChallenges.io</title>
+
+  <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Outfit", sans-serif;
+      background-color: #F3F4F6;
+      height: 100vh;
+    }
+
+    .author-info {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 16px;
+      color: rgb(55, 65, 81);
+    }
+
+    .author-info a {
+      text-decoration: none;
+    }
+
+    header>span {
+      color: #263FA9;
+      font-weight: 500;
+      display: inline-block;
+      margin: 20px auto;
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    header > h1 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+
+    }
+
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      border: 4px solid green;
+      width: 90%;
+      border-radius: 25px;
+    }
+
+    #head-container {
+      background-image: url(resources/Background_decor.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #head-container>p{
+      color: #394150;
+      font-weight: 400;
+      line-height: 1.5;
+      padding-bottom: 80px;
+    }
+
+    .img-container {
+      border: 2px solid black;
+      width: fit-content;
+      position: relative;
+    }
+
+    .meet-container {
+      position: relative;
+    }
+
+    .content {
+      position: absolute;
+      color: white;
+      z-index: 3;
+      bottom: 40px;
+      left: 40px;
+    }
+
+    #grid-container {
+      border: 2px dashed blue;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+
+    #img1 {
+      background-color: #C1B6F8;
+      border: 2px solid yellow;
+    }
+
+    #img2 {
+      background-color: #EDACD2;
+      border: 2px solid yellow;
+    }
+
+    #img3 {
+      background-color: #9DC4F8;
+      border: 2px solid yellow;
+    }
+
+    #img4 {
+      background-color: #F8D8B0;
+      border: 2px solid yellow;
+    }
+
+    #img5 {
+      background-color: #86E7D4;
+      border: 2px solid yellow;
+    }
+
+    .gradient {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 426px;
+    }
+
+    footer {
+      height: 430px;
+      border: 2px solid yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="head-container">
+      <header>
+        <span>Our team</span>
+        <h1>Meet the brain</h1>
+      </header>
+      <p>We are proud to have them as part of our
+        community and look forward to continuing to
+        push the boundaries of what's possible in the
+        world of digital art.
+      </p>
+    </div>
+
+    <main>
+      <div id="grid-container">
+        <div class="meet-container">
+          <div class="img-container">
+            <img id="img1" src="resources/person_1.png" alt="">
+            <img class="gradient" src="resources/Gradient.svg" alt="">
+          </div>
+
+          <div class="content">
+            <h3>Liam Novak</h3>
+            <p>Software Engineer</p>
+          </div>
+        </div>
+
+        <div class="meet-container">
+
+          <div class="img-container">
+            <img id="img2" src="resources/person_2.png" alt="">
+            <img class="gradient" src="resources/Gradient.svg" alt="">
+          </div>
+          <div class="content">
+            <h3>Sophia Moretti</h3>
+            <p>Business Development Manager</p>
+          </div>
+        </div>
+
+        <div class="meet-container">
+
+          <div class="img-container">
+            <img id="img3" src="resources/person_3.png" alt="">
+            <img class="gradient" src="resources/Gradient.svg" alt="">
+          </div>
+          <div class="content">
+
+            <h3>Ethan Rossi</h3>
+            <p>Business Development Manager</p>
+          </div>
+        </div>
+
+        <div class="meet-container">
+
+          <div class="img-container">
+            <img id="img4" src="resources/person_4.png" alt="">
+            <img class="gradient" src="resources/Gradient.svg" alt="">
+          </div>
+          <div class="content">
+            <h3>Isabella Ricci</h3>
+            <p>UX Designer</p>
+          </div>
+        </div>
+
+
+        <div class="meet-container">
+
+          <div class="img-container">
+            <img id="img5" src="resources/person_5.png" alt="">
+            <img class="gradient" src="resources/Gradient.svg" alt="">
+          </div>
+          <div class="content">
+
+            <h3>Noah Conti</h3>
+            <p>Content Creator</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p> See all members</p>
+      <img src="resources/arrow up right.svg">
+    </footer>
+  </div>
+  <div class="author-info">
+    Coded by <a href="#">Your Name Here</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+  </div>
+
+</body>
+
+</html>
