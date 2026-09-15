@@ -71,6 +71,10 @@
       overflow: hidden;
     }
 
+    .content>strong{
+        font-size: 1.4rem;
+    }
+
     .content {
       position: absolute;
       color: white;
@@ -132,10 +136,8 @@
       font-weight: 500;
     }
 
-    @media screen and (min-width: 761px) {
-      :root {
-        font-size: 18px;
-      }
+    @media screen and (min-width: 740px) {
+     
 
       body {
         padding: 80px;
@@ -149,7 +151,7 @@
 
       #grid-container {
         grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 0;
+        gap: 0;
       }
       #head-container {
           grid-column:  span 3;
