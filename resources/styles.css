@@ -166,6 +166,9 @@
         .five {
             border-bottom-right-radius: 30px;
         }
+        .gradient {
+            top: 6.1rem;
+        }
     }
 
     @media screen and (min-width:1030px) {
@@ -191,5 +194,8 @@
         border-top-right-radius: 30px;
       }
 
+      .gradient {
+            top: 4.8rem;
+        }
       
     }
