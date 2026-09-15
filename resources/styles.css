@@ -132,7 +132,7 @@
       font-weight: 500;
     }
 
-    @media screen and (min-width: 740px) {
+    @media screen and (min-width: 761px) {
       :root {
         font-size: 18px;
       }
@@ -141,8 +141,15 @@
         padding: 80px;
       }
 
+      .img-container{
+        margin: 0;
+        padding: 0;
+        height: 297px;
+      }
+
       #grid-container {
         grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 0;
       }
       #head-container {
           grid-column:  span 3;
@@ -153,6 +160,10 @@
         grid-column: 1;
         grid-row: 3;
       }
+
+        .five {
+            border-bottom-right-radius: 30px;
+        }
     }
 
     @media screen and (min-width:1030px) {
@@ -178,7 +189,5 @@
         border-top-right-radius: 30px;
       }
 
-      .five {
-        border-bottom-right-radius: 30px;
-      }
+      
     }
