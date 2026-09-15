@@ -41,7 +41,7 @@
 
     .container {
       background-color: #F3F4F6;
-      background-image: url(resources/Background_decor.svg);
+      background-image: url(Background_decor.svg);
       background-repeat: no-repeat; 
       border-radius: 30px;
     }
