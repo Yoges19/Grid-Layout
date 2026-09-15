@@ -58,6 +58,7 @@
     }
 
     .img-container {
+      height: 100%;
       width: fit-content;
       width: 100%;
       max-width: 100%;
@@ -116,7 +117,7 @@
 
     .gradient {
       position: absolute;
-      top: 25%;
+      top: 27%;
       bottom: 0;
       left: 0;
     }
@@ -137,16 +138,8 @@
     }
 
     @media screen and (min-width: 740px) {
-     
-
       body {
         padding: 80px;
-      }
-
-      .img-container{
-        margin: 0;
-        padding: 0;
-        height: 297px;
       }
 
       #grid-container {
@@ -167,7 +160,7 @@
             border-bottom-right-radius: 30px;
         }
         .gradient {
-            top: 6.1rem;
+            top: 5rem;
         }
     }
 
@@ -195,7 +188,6 @@
       }
 
       .gradient {
-            top: 4.8rem;
+            top: 5.3rem;
         }
-      
     }
